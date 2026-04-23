@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YUBI - You Be With Me</title>
+  <meta name="description" content="Miles apart, still side by side. YUBI is a shared space for two - made for long-distance couples and best friends." />
+  <meta property="og:title" content="YUBI - You Be With Me" />
+  <meta property="og:description" content="Miles apart, still side by side. See what your person is up to, share your mood, send a tap." />
+  <meta property="og:type" content="website" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fff9f9;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    /* NAV */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: #e75480; }
+    nav a {
+      font-size: 0.9rem;
+      color: #555;
+      text-decoration: none;
+    }
+    nav a:hover { color: #e75480; }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 80px 24px 60px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .tagline {
+      font-size: 0.8rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #e75480;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      color: #111;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: #e75480;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #555;
+      max-width: 500px;
+      margin: 0 auto 40px;
+    }
+    .app-store-btn {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      transition: background 0.2s;
+    }
+    .app-store-btn:hover { background: #e75480; }
+
+    /* FEATURES */
+    .features {
+      max-width: 860px;
+      margin: 80px auto;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 32px;
+    }
+    .feature {
+      background: #fff;
+      border-radius: 20px;
+      padding: 32px 28px;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    }
+    .feature .icon {
+      font-size: 1.8rem;
+      margin-bottom: 14px;
+    }
+    .feature h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #111;
+    }
+    .feature p {
+      font-size: 0.9rem;
+      color: #777;
+      line-height: 1.6;
+    }
+
+    /* QUOTE */
+    .quote {
+      text-align: center;
+      padding: 80px 24px;
+      background: linear-gradient(135deg, #fff0f4, #fff9f9);
+    }
+    .quote blockquote {
+      font-size: clamp(1.2rem, 3vw, 1.8rem);
+      font-weight: 600;
+      color: #111;
+      max-width: 600px;
+      margin: 0 auto 16px;
+      line-height: 1.4;
+    }
+    .quote cite {
+      font-size: 0.85rem;
+      color: #aaa;
+      font-style: normal;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      padding: 80px 24px 100px;
+    }
+    .cta h2 {
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #111;
+    }
+    .cta p {
+      color: #777;
+      margin-bottom: 36px;
+      font-size: 0.95rem;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid #f0e0e5;
+      padding: 24px 40px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #bbb;
+    }
+    footer a { color: #bbb; text-decoration: none; }
+    footer a:hover { color: #e75480; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">yu<span>bi</span></div>
+    <a href="https://bbnobunny.github.io/yubi-legal/support.html">Support</a>
+  </nav>
+
+  <section class="hero">
+    <p class="tagline">you be with me</p>
+    <h1>Miles apart,<br/>still <em>side by side.</em></h1>
+    <p>YUBI is a shared space for two - made for long-distance couples, best friends, and anyone who has a person they wish was closer.</p>
+    <a class="app-store-btn" href="https://apps.apple.com/app/yubi" target="_blank">Download on the App Store</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <div class="icon">👀</div>
+      <h3>See what they're up to</h3>
+      <p>Working, sleeping, out for a walk - know what your person is doing right now.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🫧</div>
+      <h3>Share your mood</h3>
+      <p>Let them know how you're feeling without needing to say a word.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🤍</div>
+      <h3>Send a tap</h3>
+      <p>A quiet little "thinking of you" - no pressure, no big conversation needed.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📓</div>
+      <h3>Write a note</h3>
+      <p>Leave a journal entry just for them. Small moments, kept safe.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📅</div>
+      <h3>Shared countdown</h3>
+      <p>Count down to the next time you're together on your shared calendar.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📱</div>
+      <h3>Home screen widget</h3>
+      <p>Add YUBI to your home screen and carry your person with you all day.</p>
+    </div>
+  </section>
+
+  <section class="quote">
+    <blockquote>"Distance is hard. YUBI makes it a little softer."</blockquote>
+    <cite>For couples. For best friends. For anyone who loves someone far away.</cite>
+  </section>
+
+  <section class="cta">
+    <h2>Your person is waiting.</h2>
+    <p>Free on the App Store. Just you and them.</p>
+    <a class="app-store-btn" href="https://apps.apple.com/app/yubi" target="_blank">Download YUBI</a>
+  </section>
+
+  <footer>
+    © 2026 bbnobunny &nbsp;·&nbsp;
+    <a href="https://bbnobunny.github.io/yubi-legal/terms.html">Terms</a> &nbsp;·&nbsp;
+    <a href="https://bbnobunny.github.io/yubi-legal/support.html">Support</a>
+  </footer>
+
+</body>
+</html>
